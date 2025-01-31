@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --clr-primary: #8053FF;
+    --main-color: #ffffff;
+    --main-text-color: #23155B;
+    --section-title-font-size: 52px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    color: var(--main-text-color);
+    font-family: Poppins, sans-serif;
+    background-color: var(--main-color);
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 116px;
+    padding: 24px 0;
+}
+.header-container{
+    width: 1420px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 203px;
+    height: 100%;
+    padding: 4px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+    h1{
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    .header-nav {
+        width: 416px;
+        height: 48px;
+        gap: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-nav-list{
+        list-style-type: none;
+        gap: 24px;
+        height: 36px;
+        width: 235px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+}
+.header-nav-list-item{
+    display: inline-block;
+    white-space: nowrap;
+    height: 36px;
+    padding: 0;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 500;
+    margin: 0;
+    align-items: center;
+}
+.header-nav-button{
+    width: 121px;
+    height: 48px;
+    background: var(--clr-primary);
+    padding: 12px 24px;
+    border-width: 0;
+    border-radius: 8px;
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-nav-button:active{
+    background: var(--main-text-color);
+}
+.wall{
+    height: 796px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.wall-container{
+    background-image: url("./media/bg.svg");
+    width: 1420px;
+    height: 100%;
+    padding: 168px 385px;
+    border-radius: 24px;
+    gap: 10px;
+    background-color: #FBFAFF;
+}
+.wall-content-container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wall-titlebox{
+    width: 100%;
+    height: 140px;
+}
+.wall-titlebox__title{
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 96px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.wall-titlebox__lable{
+    width: 100%;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+.wall-buttonbox{
+    height: 60px;
+    width: 476px;
+    gap: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.primary-button{
+    width: 232px;
+    height: 60px;
+    border-radius: 8px;
+    background: var(--clr-primary);
+    color: var(--main-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primary-button:active{
+    background: var(--main-text-color);
+}
+.secondary-button{
+    width: 232px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid var(--clr-primary);
+    background: var(--main-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-primary);
+}
+.secondary-button:active{
+    background: #FBFAFF;
+}
+.logotip {
+    width: 100%;
+    height: 164px;
+    display: flex;
+    justify-content: center;
+}
+.logotip-title-container {
+    width: 1180px;
+    height: 164px;
+}
+.hr-container {
+    width: 100%;
+    height: 84px;
+    padding-bottom: 40px;
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hr {
+    width: 480px;
+    height: 2px;
+    background-color: #F4F5F4;
+}
+.hr-label {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+.logotip-raw-container {
+    width: 100%;
+    gap: 20px;
+    height: 80px;
+    justify-content: space-between;
+    display: flex;
+}
+.advatages {
+    width: 100%;
+    height: 1048px;
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+}
+.advatages-container {
+    width: 1180px;
+    height: 648px;
+    display: flex;
+}
+.advatages-title-container {
+    width: 600px;
+    height: 256px;
+}
+.advatages-title {
+    font-size: var(--section-title-font-size);
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+.purple {
+    color: var(--clr-primary);
+}
+.advatages-list {
+    width: 580px;
+    height: 648px;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.advatages-listitem {
+    width: 580px;
+    height: 120px;
+    border-radius: 8px;
+    padding:  24px;
+    gap: 10px;
+    box-shadow: 0px 8px 12px -6px #23155B0D;
+    display: flex;
+    align-items: center;
+}
+.advatages-listitem-content {
+    width: 100%;
+    height: 56px;
+    gap: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.advatages-listitem-marker {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: start;
+    height: 100%;
+    margin: 0;
+    width: 28px;
+}
+.advatages-listitem-tex {
+    width: 337px;
+    height: 56px;
+    gap: 10px;
+    display: flex;
+    align-items: start;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 0;
+}
+.advatages-listitem-content div {
+    width: 495px;
+    height: 100%;
+}
+.forproject {
+    width: 100%;
+    height: 1220px;
+    border-radius: 250px 0 0 0;
+    padding: 200px 0;
+    background: linear-gradient(180deg, #FBFAFF 29.73%, #FFFFFF 100%);
+    background-image: url("./media/bg 2.svg");
+    display: flex;
+    justify-content: center;
+}
+.forproject-container {
+    width: 1180px;
+    height: 820px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.forproject-titlebox {
+    width: 1180px;
+    height: 160px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.forproject-titlebox-frame15 {
+    width: 560px;
+    height: 92px;
+}
+.forproject-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.forproject-title {
+    font-size: var(--section-title-font-size);
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    width: 887px;
+}
+.forproject-label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 616px;
+}
+.forproject-list {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.forproject-raw {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.forproject-listitem {
+    width: 580px;
+    border-radius: 8px;
+    padding:  24px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 12px -6px #23155B0D;
+}
+.forproject-listitem-container {
+    width: 100%;
+    gap: 12px;
+    display: flex;
+}
+.forproject-listitem-container img {
+    width: 24px;
+    height: 24px;
+}
+.listitem-texbox {
+    width: 100%;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+.forproject-listitem-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.forproject-listitem-tex {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #928CAB;
+    width: 458px;
+}
+.forproject-button-box {
+    gap: 12px;
+    display: flex;
+}
+.forinvestors {
+    width: 100%;
+    height: 952px;
+    padding: 200px 0;
+    border-radius: 0 250px 0 0;
+    background: linear-gradient(180deg, #FBFAFF 29.73%, #FFFFFF 100%);
+    justify-content: center;
+    display: flex;
+}
+.forinvestors-container {
+    width: 1180px;
+    height: 552px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.man {
+    width: 100%;
+    height: 1030px;
+    padding: 0 0 200px 0;
+}
+.man-container {
+    width: 100%;
+    height: 830px;
+    background-image: url("./media/defipie logo bg.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.man-frame-80 {
+    width: 840px;
+    height: 575px;
+    padding: 0 0 0 260px;
+}
+.photo {
+    width: 590px;
+    height: 830px;
+}
+.man-logo {
+    width: 104px;
+    height: 119px;
+}
+.man-title {
+    width: 415px;
+    font-weight: 700;
+    font-size: var(--section-title-font-size);
+    line-height: 64px;
+    letter-spacing: 0.02em;
+}
+.man-textbox {
+    margin-top: 52px;
+    width: 100%;
+}
+.man-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+
+
+
+
+
+
+
