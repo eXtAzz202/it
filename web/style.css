@@ -449,6 +449,128 @@ body{
     font-weight: 400;
     line-height: 28px;
 }
+.second-hr {
+    width: 296px;
+}
+.footer {
+    width: 100%;
+    height: 918px;
+    padding:  179px 370px;
+    border-radius: 250px 0 0 0;
+    gap: 10px;
+    display: flex;
+    background: var(--main-text-color) url("./media/bg 4.svg");
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+}
+.bottom-margin {
+    margin-bottom: 200px;
+}
+.footer-container {
+    width: 1180px;
+    height: 560px;
+    display: flex;
+    align-items: end;
+}
+.footer-maincon {
+    width: 700px;
+    height: 560px;
+    gap: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-titlebox {
+    width: 700px;
+    height: 232px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.footer-title {
+    width: 437px;
+    font-weight: 700;
+    font-size: var(--section-title-font-size);
+    line-height: 64px;
+    letter-spacing: 0.02em;
+}
+.footer-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #D4CDEF;
+}
+.footer-form {
+    width: 700px;
+    height: 264px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-raw {
+    width: 100%;
+    height: 176px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-input {
+    display: flex;
+    flex-direction: column;
+}
+.footer-input-block {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-input {
+    width: 340px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D4CDEF;
+}
+.footer-input input {
+    height: 48px;
+    border: 2px #F4F5F4;
+    border-radius: 8px;
+}
+.footer-logo {
+    width: 480px;
+    height: 77px;
+    gap: 24px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-main-logo {
+    width: 218px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-texbox {
+    width: 358px;
+    height: 21px;
+    gap: 40px;
+    display: flex;
+}
+.footer-tex {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-decoration: underline;
+    color: #D4CDEF;
+}
+
+
+
+
 
 
 
